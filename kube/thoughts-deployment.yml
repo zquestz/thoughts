@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: default
+  labels:
+    service: thoughts
+  name: thoughts
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      service: thoughts
+  template:
+    metadata:
+      labels:
+        service: thoughts
+    spec:
+      containers:
+      - image: zquestz/thoughts:latest
+        imagePullPolicy: Always
+        name: thoughts
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            memory: "8Mi"
+      restartPolicy: Always

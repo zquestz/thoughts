@@ -16,4 +16,4 @@ This is where I share my thoughts about:
 - Health
 - Spirit
 
-You can find my short form content on [Twitter](https://twitter.com/zquestz), or my code on [GitHub](https://github.com/zquestz).
+You can find my short form content on [Twitter](https://twitter.com/zquestz) and/or my code on [GitHub](https://github.com/zquestz).
