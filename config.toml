@@ -2,6 +2,7 @@ baseurl = "https://thoughts.greyh.at/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
+googleAnalytics = "G-4D8DK831BJ"
 
 [params]
   # dir name of your main content (default is `content/posts`).
