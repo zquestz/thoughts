@@ -4,6 +4,9 @@ theme = "terminal"
 paginate = 5
 googleAnalytics = "G-4D8DK831BJ"
 
+[taxonomies]
+  tag = 'tags'
+
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).

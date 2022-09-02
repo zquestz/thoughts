@@ -4,6 +4,7 @@ date = "2022-09-01"
 author = "quest"
 authorTwitter = "zquestz"
 cover = "webp/webp-logo.webp"
+tags = ["imageproxy", "webp", "code"]
 +++
 
 After ignoring WebP for years, I finally decided to check it out. For a long time I thought PNG, GIF, JPG, and MP4 would be enough. Not anymore.
