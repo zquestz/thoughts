@@ -64,6 +64,9 @@ googleAnalytics = "G-4D8DK831BJ"
   creator = "zquestz"
   site = "zquestz"
 
+[params.mastodon]
+  site = "@zquestz@mastodon.social"
+
 [languages]
   [languages.en]
     languageName = "English"
