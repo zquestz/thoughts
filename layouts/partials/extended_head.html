@@ -3,4 +3,4 @@
   {{ $cssResources = $cssResources | append (resources.Get (print "css/" .Name)) }}
 {{ end }}
 {{ $cssBundle := $cssResources | resources.Concat "css/theme.css" | fingerprint | minify }}
-<link rel="stylesheet" href="{{ $cssBundle.Permalink }}">
+<link rel="stylesheet" href="{{ $cssBundle.RelPermalink }}">
