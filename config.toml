@@ -1,4 +1,4 @@
-baseurl = "https://thoughts.greyh.at/"
+baseurl = "/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
