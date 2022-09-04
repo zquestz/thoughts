@@ -4,6 +4,7 @@ date = "2022-09-03"
 author = "quest"
 authorTwitter = "zquestz"
 cover = "breathe/cover.webp"
+coverCredit = "Byodo-in Temple - Josh Ellithorpe 2022"
 tags = ["health", "spirit", "breath"]
 +++
 
