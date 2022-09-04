@@ -6,6 +6,7 @@ authorTwitter = "zquestz"
 cover = "breathe/cover.webp"
 coverCredit = "Byodo-in Temple - Josh Ellithorpe 2022"
 tags = ["health", "spirit", "breath"]
+keywords = ["breath", "health", "spirit"]
 +++
 
 Taking the time to breathe consciously, as simple as that is, provides significant improvements to body and spirit.
