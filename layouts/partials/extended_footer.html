@@ -1,2 +1,2 @@
 {{ $js := resources.Get "js/shareon.js" | fingerprint | minify }}
-<script src="{{ $js.RelPermalink }}" defer init></script>
+<script src="{{ $js.Permalink }}" defer init></script>
