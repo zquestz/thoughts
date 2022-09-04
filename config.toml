@@ -3,6 +3,7 @@ languageCode = "en-us"
 theme = "terminal"
 paginate = 5
 googleAnalytics = "G-4D8DK831BJ"
+enableEmoji = true
 
 [taxonomies]
   tag = 'tags'
@@ -56,7 +57,6 @@ googleAnalytics = "G-4D8DK831BJ"
   # can be overridden in a page's front-matter
   # TocTitle = "Table of Contents" # default
 
-
 [params.twitter]
   # set Twitter handles for Twitter cards
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
@@ -74,7 +74,7 @@ googleAnalytics = "G-4D8DK831BJ"
     subtitle = "A small area for quest's thoughts."
     owner = ""
     keywords = ""
-    copyright = ""
+    copyright = "@ 2022 quest"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"

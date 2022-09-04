@@ -42,7 +42,7 @@ I decided to give it a shot. Generally, I don't do classes, but this was being r
 
 There was a small group of 10 or so. We spent some time stretching, saying hello, and focusing on our breath. Then we spent about 20 minutes doing 4 rounds of Wim Hof. I felt fantastic. My mind felt focused, clear, and ready to take on the day.
 
-The group keeps growing every week. I fear they will need to find a bigger space. ;)
+The group keeps growing every week. I fear they will need to find a bigger space. :wink:
 
 ## More Breath
 
