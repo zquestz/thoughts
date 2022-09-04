@@ -8,9 +8,6 @@ googleAnalytics = "G-4D8DK831BJ"
   tag = 'tags'
 
 [params]
-  # Latest build number, resets css.
-  build = 1
-
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"

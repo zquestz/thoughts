@@ -1,0 +1,12 @@
+.shareon>*, a.donate-with-crypto {
+  border-radius: 0 !important;
+}
+
+.share {
+  margin-top: 3em;
+  margin-left: -3px;
+}
+
+.donate {
+  margin-top: 3px;
+}
