@@ -1,3 +1,7 @@
+a.buy-with-crypto, a.donate-with-crypto {
+  transition: none !important;
+}
+
 .shareon>*, a.donate-with-crypto {
   border-radius: 0 !important;
 }
