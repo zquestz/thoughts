@@ -45,7 +45,9 @@
     {{- end -}}
   </div>
 
+  {{ if not (.Params.hideShare | default false) }}
   {{ partial "share.html" . }}
+  {{ end }}
 
   {{ if eq .Type $.Site.Params.contentTypeName }}
   {{ partial "posts_pagination.html" . }}

@@ -4,6 +4,7 @@ theme = "terminal"
 paginate = 5
 googleAnalytics = "G-4D8DK831BJ"
 enableEmoji = true
+disqusShortname = 'zquestz'
 
 [taxonomies]
   tag = 'tags'

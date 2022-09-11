@@ -2,6 +2,7 @@
 title = "Intent"
 date = "2022-06-12"
 author = "quest"
+hideComments = true
 +++
 
 You have found my tiny corner of the internet!
