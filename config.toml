@@ -96,3 +96,7 @@ enableEmoji = true
         identifier = "intent"
         name = "Intent"
         url = "/intent"
+      [[languages.en.menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/contact"
