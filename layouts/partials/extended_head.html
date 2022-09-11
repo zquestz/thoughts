@@ -1,6 +1,28 @@
 {{ $cssResources := slice }}
 {{ range (readDir "assets/css") }}
-  {{ $cssResources = $cssResources | append (resources.Get (print "css/" .Name)) }}
+{{ $cssResources = $cssResources | append (resources.Get (print "css/" .Name)) }}
 {{ end }}
 {{ $cssBundle := $cssResources | resources.Concat "css/theme.css" | fingerprint | minify }}
-<link rel="stylesheet" href="{{ $cssBundle.RelPermalink }}">
+<link rel="preload" href="{{ $cssBundle.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ $cssBundle.RelPermalink }}"></noscript>
+
+<style>
+  a.buy-with-crypto,
+  a.donate-with-crypto {
+    transition: none !important;
+  }
+
+  .shareon>*,
+  a.donate-with-crypto {
+    border-radius: 0 !important;
+  }
+
+  .share {
+    margin-top: 3em;
+    margin-left: -3px;
+  }
+
+  .donate {
+    margin-top: 3px;
+  }
+</style>
