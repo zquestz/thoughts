@@ -17,7 +17,7 @@ enableEmoji = true
   themeColor = "green"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 3
 
   # show selector to switch language
   showLanguageSelector = false
@@ -89,14 +89,47 @@ enableEmoji = true
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "thoughts"
-        name = "Thoughts"
-        url = "/"
-      [[languages.en.menu.main]]
         identifier = "intent"
         name = "Intent"
         url = "/intent"
+        weight = 1
       [[languages.en.menu.main]]
-        identifier = "contact"
-        name = "Contact"
-        url = "/contact"
+        identifier = "thoughts"
+        name = "Thoughts"
+        url = "/"
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "github"
+        name = "GitHub"
+        url = "https://github.com/zquestz"
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "keybase"
+        name = "Keybase"
+        url = "https://keybase.io/zquestz"
+        weight = 4
+      [[languages.en.menu.main]]
+        identifier = "linkedin"
+        name = "LinkedIn"
+        url = "https://www.linkedin.com/in/joshellithorpe/"
+        weight = 4
+      [[languages.en.menu.main]]
+        identifier = "mastodon"
+        name = "Mastodon"
+        url = "https://mastodon.social/web/@zquestz"
+        weight = 4
+      [[languages.en.menu.main]]
+        identifier = "memo"
+        name = "Memo"
+        url = "https://memo.cash/profile/1BNBPUBjBQ9W8Bmqn4P6smN6PcqVu2rwPV"
+        weight = 4
+      [[languages.en.menu.main]]
+        identifier = "noise"
+        name = "Noise"
+        url = "https://noise.cash/u/zquestz"
+        weight = 4
+      [[languages.en.menu.main]]
+        identifier = "twitter"
+        name = "Twitter"
+        url = "https://twitter.com/zquestz"
+        weight = 4
