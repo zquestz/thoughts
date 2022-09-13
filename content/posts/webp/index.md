@@ -3,7 +3,7 @@ title = "A Quick Dive Into WebP"
 date = "2022-09-01"
 author = "quest"
 authorTwitter = "zquestz"
-cover = "webp/webp-logo.webp"
+cover = "images/webp-logo.webp"
 tags = ["imageproxy", "webp", "code"]
 keywords = ["code", "imageproxy", "webp"]
 +++
@@ -43,13 +43,13 @@ I even included [pngquant](https://pngquant.org/), as it is my favorite PNG comp
 [Original](https://clementinesnightmare.mypinata.cloud/ipfs/QmSCpGdCSo5iDXDdGcJRWA9kcB22MdBo1xwnoMpx1nj937/1169.png) - 2500px (6.7MB)
 
 WebP - 500px (80.5kB)
-![WebP](/webp/1169.webp)
+![WebP](images/1169.webp)
 
 PNG - 500px (295kB)
-![PNG](/webp/1169.png)
+![PNG](images/1169.png)
 
 PNG-pngquant - 500px (99.3kB)
-![PNG](/webp/1169-pngquant.png)
+![PNG](images/1169-pngquant.png)
 
 Well, the results are impressive. The WebP output looks amazing and is < 30% of the PNG! Even when optimizing with `pngquant` the WebP file was smaller, was of higher quality, and didn't require post processing.
 

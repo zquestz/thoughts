@@ -3,7 +3,7 @@ title = "Remember to Breathe"
 date = "2022-09-03"
 author = "quest"
 authorTwitter = "zquestz"
-cover = "breathe/cover.webp"
+cover = "images/cover.webp"
 coverCredit = "Byodo-in Temple - Josh Ellithorpe 2022"
 tags = ["health", "spirit", "breath"]
 keywords = ["breath", "health", "spirit"]
@@ -27,7 +27,7 @@ As I met people, they actually talked about breathwork... I started to look arou
 
 Igor Siberia, someone I had just met, was doing a three hour breathwork session called "Awaken Your Breath" at [Dragonfly Ranch](https://dragonflyranch.com/). I was ready, and could not be more excited.
 
-{{< image src="/breathe/igor.webp" alt="Awaken Your Breath" >}}
+![Awaken Your Breath](images/igor.webp)
 
 The session did not disappoint. I was able to reach new states of consciousness and experience enhanced perception over my body's internal systems.
 
