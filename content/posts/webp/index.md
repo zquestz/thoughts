@@ -57,7 +57,7 @@ Well, the results are impressive. The WebP output looks amazing and is < 30% of 
 
 Most developers will merely use WebP assets, and won't need the lower level libraries. However, if you want to encode/decode WebP files, then look no further.
 
-The main C libraries are open-source and available at: [developers.google.com/speed/webp/download](https://developers.google.com/speed/webp/download)
+The main C libraries are open-source and available at: [developers.google.com](https://developers.google.com/speed/webp/download)
 
 One would think that WebP would be fully supported in Go, since it was also developed at Google. However, as of Go 1.19, WebP encoding is not supported in the standard library!
 
