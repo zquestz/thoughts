@@ -4,6 +4,7 @@ date = "2022-09-01"
 author = "quest"
 authorTwitter = "zquestz"
 cover = "images/webp-logo.webp"
+coverCredit = "WebP Logo"
 tags = ["imageproxy", "webp", "code"]
 keywords = ["code", "imageproxy", "webp"]
 +++
