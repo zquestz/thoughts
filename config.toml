@@ -128,14 +128,9 @@ enableEmoji = true
         url = "https://mastodon.social/web/@zquestz"
         weight = 6
       [[languages.en.menu.main]]
-        identifier = "memo"
-        name = "Memo"
-        url = "https://memo.cash/profile/1BNBPUBjBQ9W8Bmqn4P6smN6PcqVu2rwPV"
-        weight = 6
-      [[languages.en.menu.main]]
         identifier = "noise"
         name = "Noise"
-        url = "https://noise.cash/u/zquestz"
+        url = "https://noise.app/quest"
         weight = 6
       [[languages.en.menu.main]]
         identifier = "twitter"
