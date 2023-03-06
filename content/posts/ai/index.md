@@ -7,6 +7,7 @@ cover = "posts/ai/images/ai.webp"
 coverCredit = "AI Expanse"
 tags = ["ai"]
 keywords = ["ai"]
+summary = "Explore DALL-E, ChatGPT and Midjourney. How to get started."
 +++
 
 Everywhere you look today, people are talking about artificial intelligence (AI). People are creating stunning art using [Midjourney](https://midjourney.com) and [DALL-E](https://labs.openai.com/). AI based chat bots have become infinitely more powerful. Using [ChatGPT](https://chat.openai.com) can feel like magic... a conversational *something*. What that is, is a debate for another day.

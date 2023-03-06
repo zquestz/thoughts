@@ -7,6 +7,7 @@ cover = "posts/breathe/images/cover.webp"
 coverCredit = "Byodo-in Temple - Josh Ellithorpe 2022"
 tags = ["health", "spirit", "breath"]
 keywords = ["breath", "health", "spirit"]
+summary = "My experience with the Wim Hof Method, and other breathwork."
 +++
 
 Taking the time to breathe consciously, as simple as that is, provides significant improvements to body and spirit.

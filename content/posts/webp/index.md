@@ -7,6 +7,7 @@ cover = "posts/webp/images/webp-logo.webp"
 coverCredit = "WebP Logo"
 tags = ["imageproxy", "webp", "code"]
 keywords = ["code", "imageproxy", "webp"]
+summary = "After ignoring WebP for years, I finally decided to check it out. For a long time I thought PNG, GIF, JPG, and MP4 would be enough. Not anymore."
 +++
 
 After ignoring WebP for years, I finally decided to check it out. For a long time I thought PNG, GIF, JPG, and MP4 would be enough. Not anymore.

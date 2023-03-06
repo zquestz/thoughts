@@ -5,6 +5,7 @@ author = "quest"
 authorTwitter = "zquestz"
 tags = ["kubernetes", "hugo", "code"]
 keywords = ["code", "infrastructure", "hugo", "kubernetes", "linux"]
+summary = "For a while now, I have wanted a place to post my long form content. So after literally years of delay, I finally got around to it, and thoughts.greyh.at was born."
 +++
 
 For a while now, I have wanted a place to post my long form content. So after literally years of delay, I finally got around to it, and [thoughts.greyh.at](https://thoughts.greyh.at) was born.
