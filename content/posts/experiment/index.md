@@ -135,14 +135,14 @@ paginate = 5
 
 The last piece was adding `intent.md` and `experiment.md` (this post).
 
-# DNS
+## DNS
 
 I already have a load balancer setup in GCE to handle a number of other websites, so all I had to do was add an A record to handle thoughts.greyh.at. I generally use a TTL of 60, just in case I have to move a domain.
 ```
 thoughts.greyh.at.	60	IN	A	35.208.63.54
 ```
 
-# Deployment
+## Deployment
 
 To get the site deployed, I would need to create a Dockerfile and Kubernetes configurations to deploy to my GCE cluster.
 
