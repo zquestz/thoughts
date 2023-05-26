@@ -60,7 +60,7 @@ For Firefox go to `about:config` and search for `DNS`. Ensure the following are 
 - network.dns.echconfig.enabled
 - network.dns.http3_echconfig.enabled
 
-Then set `network.trr.mode` to `3`. After restarting Firefox, ECH should be set up!
+Then set `network.trr.mode` to `3`. After restarting Firefox, ECH should be setup!
 
 Unfortunately if you are using Firefox for mobile, only the nightly builds expose `about:config`.
 
