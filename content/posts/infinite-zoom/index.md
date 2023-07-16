@@ -7,7 +7,7 @@ cover = "posts/infinite-zoom/images/infinite-zoom.webp"
 coverCredit = "Infinite Zoom"
 tags = ["infinite", "zoom", "code"]
 keywords = ["infinite", "zoom", "code"]
-summary = "Today, my friend Jeremiah brought up infinite zoom effects and started doing some research on how to create them. Here’s a quick example for those of you who haven’t seen them before. After a bit of time, he sent me over detailed documentation on creating infinite zoom effects, and asked me to translate the technical pieces. This is how the rabbit hole began. I just had to try it, so this blog will detail my own journey creating an infinite zoom using Midjourney!"
+summary = "Today, my friend Jeremiah brought up infinite zoom effects and started doing some research on how to create them. After a bit of time, he sent me over detailed documentation on creating infinite zoom effects, and asked me to translate the technical pieces. This is how the rabbit hole began. I just had to try it, so this blog will detail my own journey creating an infinite zoom using Midjourney!"
 +++
 
 Today, my friend Jeremiah brought up infinite zoom effects and started doing some research on how to create them. Here's a quick example for those of you who haven't seen them before.
