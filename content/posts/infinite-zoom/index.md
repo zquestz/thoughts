@@ -50,7 +50,7 @@ python ./infinite_zoom.py -as -i ./story -o story.mp4
 
 This created `story.mp4` which you can see below!
 
-{{< youtube tm45MA63Or8 >}}
+{{< youtube 8pAiq1F3jY0 >}}
 
 ## Final Thoughts
 
