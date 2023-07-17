@@ -52,7 +52,7 @@ This created `story.mp4` which you can see below!
 
 ## Post Production
 
-Before finishing up, Thomas of [Sacred Mirror Media](https://www.sacredmirrormedia.com/) suggested upscaling the content with [Topaz Video AI](https://www.topazlabs.com/topaz-video-ai). This took about 20 minutes, and then produced the following 4K version.
+Before finishing up, Thomas of [Sacred Mirror Media](https://www.sacredmirrormedia.com/), suggested upscaling the content with [Topaz Video AI](https://www.topazlabs.com/topaz-video-ai). This took about 20 minutes, and then produced the following 4K version.
 
 {{< youtube C4yLNXOBDw0 >}}
 
