@@ -50,6 +50,12 @@ This created `story.mp4` which you can see below!
 
 {{< youtube 8pAiq1F3jY0 >}}
 
+## Post Production
+
+Before finishing up, Thomas of [Sacred Mirror Media](https://www.sacredmirrormedia.com/) suggested upscaling the content with [Topaz Video AI](https://www.topazlabs.com/topaz-video-ai). This took about 20 minutes, and then produced the following 4K version.
+
+{{< youtube C4yLNXOBDw0 >}}
+
 ## Final Thoughts
 
 Generating these videos is actually quite easy, and a lot of fun. Midjourney doesn't always generate exactly what you want, but with enough patience you can get amazing results.
