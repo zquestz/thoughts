@@ -118,6 +118,11 @@ enableEmoji = true
         url = "https://keybase.io/zquestz"
         weight = 5
       [[languages.en.menu.main]]
+        identifier = "lemmy"
+        name = "Lemmy"
+        url = "https://lemm.ee/u/zquestz"
+        weight = 6
+      [[languages.en.menu.main]]
         identifier = "linkedin"
         name = "LinkedIn"
         url = "https://www.linkedin.com/in/joshellithorpe/"
@@ -136,6 +141,11 @@ enableEmoji = true
         identifier = "noise"
         name = "Noise"
         url = "https://noise.app/quest"
+        weight = 6
+      [[languages.en.menu.main]]
+        identifier = "nostr"
+        name = "Nostr"
+        url = "https://primal.net/p/npub16gzvn22vmeh3sx0ntdt8u7aa9ryre7ucj3rz2wutrzz8cc9wylgq4dgl64"
         weight = 6
       [[languages.en.menu.main]]
         identifier = "twitter"
