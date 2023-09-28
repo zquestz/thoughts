@@ -75,80 +75,82 @@ enableEmoji = true
   [languages.en]
     languageName = "English"
     title = "Terminal Thoughts"
-    subtitle = "A small area for quest's thoughts."
-    owner = ""
-    keywords = "code, crypto, food, health, infrastructure, linux, security, spirit"
     copyright = "@ 2023 quest"
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
 
-    [languages.en.params.logo]
-      logoText = "Terminal Thoughts"
-      logoHomeLink = "/"
+    [languages.en.params]
+      subtitle = "A small area for quest's thoughts."
+      owner = ""
+      keywords = "code, crypto, food, health, infrastructure, linux, security, spirit"
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "thoughts"
-        name = "Thoughts"
-        url = "/"
-        weight = 1
-      [[languages.en.menu.main]]
-        identifier = "intent"
-        name = "Intent"
-        url = "/intent/"
-        weight = 2
-      [[languages.en.menu.main]]
-        identifier = "github"
-        name = "GitHub"
-        url = "https://github.com/zquestz"
-        weight = 3
-      [[languages.en.menu.main]]
-        identifier = "lastfm"
-        name = "Last.fm"
-        url = "https://www.last.fm/user/zquestz"
-        weight = 4
-      [[languages.en.menu.main]]
-        identifier = "keybase"
-        name = "Keybase"
-        url = "https://keybase.io/zquestz"
-        weight = 5
-      [[languages.en.menu.main]]
-        identifier = "lemmy"
-        name = "Lemmy"
-        url = "https://lemm.ee/u/zquestz"
-        weight = 6
-      [[languages.en.menu.main]]
-        identifier = "linkedin"
-        name = "LinkedIn"
-        url = "https://www.linkedin.com/in/joshellithorpe/"
-        weight = 6
-      [[languages.en.menu.main]]
-        identifier = "mastodon"
-        name = "Mastodon"
-        url = "https://mastodon.social/web/@zquestz"
-        weight = 6
-      [[languages.en.menu.main]]
-        identifier = "memo"
-        name = "Memo"
-        url = "https://memo.cash/profile/1FengemWaQUnr4NWeUerb6YzMNJ7xBT74e"
-        weight = 6
-      [[languages.en.menu.main]]
-        identifier = "noise"
-        name = "Noise"
-        url = "https://noise.app/quest"
-        weight = 6
-      [[languages.en.menu.main]]
-        identifier = "nostr"
-        name = "Nostr"
-        url = "https://primal.net/p/npub16gzvn22vmeh3sx0ntdt8u7aa9ryre7ucj3rz2wutrzz8cc9wylgq4dgl64"
-        weight = 6
-      [[languages.en.menu.main]]
-        identifier = "twitter"
-        name = "Twitter"
-        url = "https://twitter.com/zquestz"
-        weight = 6
+      [languages.en.params.logo]
+        logoText = "Terminal Thoughts"
+        logoHomeLink = "/"
+
+      [languages.en.menu]
+        [[languages.en.menu.main]]
+          identifier = "thoughts"
+          name = "Thoughts"
+          url = "/"
+          weight = 1
+        [[languages.en.menu.main]]
+          identifier = "intent"
+          name = "Intent"
+          url = "/intent/"
+          weight = 2
+        [[languages.en.menu.main]]
+          identifier = "github"
+          name = "GitHub"
+          url = "https://github.com/zquestz"
+          weight = 3
+        [[languages.en.menu.main]]
+          identifier = "lastfm"
+          name = "Last.fm"
+          url = "https://www.last.fm/user/zquestz"
+          weight = 4
+        [[languages.en.menu.main]]
+          identifier = "keybase"
+          name = "Keybase"
+          url = "https://keybase.io/zquestz"
+          weight = 5
+        [[languages.en.menu.main]]
+          identifier = "lemmy"
+          name = "Lemmy"
+          url = "https://lemm.ee/u/zquestz"
+          weight = 6
+        [[languages.en.menu.main]]
+          identifier = "linkedin"
+          name = "LinkedIn"
+          url = "https://www.linkedin.com/in/joshellithorpe/"
+          weight = 6
+        [[languages.en.menu.main]]
+          identifier = "mastodon"
+          name = "Mastodon"
+          url = "https://mastodon.social/web/@zquestz"
+          weight = 6
+        [[languages.en.menu.main]]
+          identifier = "memo"
+          name = "Memo"
+          url = "https://memo.cash/profile/1FengemWaQUnr4NWeUerb6YzMNJ7xBT74e"
+          weight = 6
+        [[languages.en.menu.main]]
+          identifier = "noise"
+          name = "Noise"
+          url = "https://noise.app/quest"
+          weight = 6
+        [[languages.en.menu.main]]
+          identifier = "nostr"
+          name = "Nostr"
+          url = "https://primal.net/p/npub16gzvn22vmeh3sx0ntdt8u7aa9ryre7ucj3rz2wutrzz8cc9wylgq4dgl64"
+          weight = 6
+        [[languages.en.menu.main]]
+          identifier = "twitter"
+          name = "Twitter"
+          url = "https://twitter.com/zquestz"
+          weight = 6
