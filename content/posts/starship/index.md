@@ -7,7 +7,7 @@ cover = "posts/starship/images/spacekitty.webp"
 coverCredit = "Space Kitty"
 tags = ["code"]
 keywords = ["code"]
-summary = ""
+summary = "As someone who spends a significant chunk of time immersed in terminal windows, constantly tweaking and optimizing, I thought I had achieved an ideal setup with zsh and [oh-my-zsh](https://ohmyz.sh/). However, in the spirit of continuous improvement, I recently embarked on a quest for re-evaluation and potential enhancement."
 +++
 
 As someone who spends a significant chunk of time immersed in terminal windows, constantly tweaking and optimizing, I thought I had achieved an ideal setup with zsh and [oh-my-zsh](https://ohmyz.sh/). However, in the spirit of continuous improvement, I recently embarked on a quest for re-evaluation and potential enhancement.
