@@ -5,8 +5,8 @@ author = "quest"
 authorTwitter = "zquestz"
 cover = "posts/shinobi/images/shinobi.webp"
 coverCredit = "Shinobi Art Engine"
-tags = ["code"]
-keywords = ["code"]
+tags = ["ai", "code"]
+keywords = ["ai", "code"]
 summary = "Today I am thrilled to introduce the Shinobi Art Engine, the ultimate tool for creating NFT collections. This is an extension of the amazing work done by the HashLips team, known for their pioneering efforts in NFT art generation, and it's the first tool to support both BCH and ETH NFT collections. The CashNinjas team has been working on this project for a while now and we are excited to share it with the world."
 +++
 
