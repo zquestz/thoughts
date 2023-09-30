@@ -54,22 +54,22 @@ Now, if you look at the metadata, your Shinobi's aren't actually that interestin
   "name": "Shinobi #1",
   "description": "Elite digital ninja, guardian of BCH.",
   "image": "ipfs://NewUriToReplace/images/1.png",
-  "dna": "7c8fb94322583f24fbdb1f2bbef820128b85ab95",
+  "dna": "9b1e5fd771a69adf90a363ea31c04b8785a1171c",
   "edition": 1,
-  "date": 1696035475849,
-  "imageHash": "c0539459e30e4793583632ba7a6b2633cdb62bd7f864e602dcc668ecf7bfa18e",
+  "date": 1696035479989,
+  "imageHash": "558811fb10667a77e3a59051d704f208a0443091010876bc5daf7788fbeb716c",
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Village"
+      "value": "Dark Forest"
     },
     {
       "trait_type": "Glow",
-      "value": "Green"
+      "value": "Red"
     },
     {
       "trait_type": "Weapons",
-      "value": "Sword"
+      "value": "Scythe"
     },
     {
       "trait_type": "Body",
@@ -81,7 +81,7 @@ Now, if you look at the metadata, your Shinobi's aren't actually that interestin
     }
   ],
   "icon": "ipfs://NewUriToReplace/icons/1.png",
-  "iconHash": "2057f7661f3a870fef7246090cf32e5467c8dc829645b340cb7c3e1e987407d7"
+  "iconHash": "ba789fd47be7a9ce8ec139143ad61d26b3d1cce272d31ae9dfdcd44b7f3ca267"
 }
 ```
 
@@ -114,29 +114,31 @@ Updated names using OpenAI
 Updated descriptions using OpenAI
 ```
 
-Taking a look at the same JSON file again, shows much better data! We now have a cool unique name, and a description that is based off the NFT traits!
+Taking a look at the same JSON file again, shows much better data! We now have a cool unique name, and a description that is based off the NFT traits! Just compare it to the image!
+
+![Harbinger of the Dark Forest](images/harbinger.webp)
 
 ```json
 {
-  "name": "Shinobi #1 - Shadow Sentinel of the Green Glow",
-  "description": "Emerging from the heart of the Village, the Shadow Sentinel of the Green Glow is an embodiment of silent strength and stealth. As a digital ninja, his form blends seamlessly with the darkness. His body, formed entirely of digital Shadow, whispers tales of ancient battles and secret martial knowledge. The White Eyes, windows to a depthless wisdom, gaze intrepidly into the decentralized world, upholding its integrity with an unwavering resolve. The Green Glow radiating from him is not just a symbol of his ethereal source of power, but a beacon for those yearning for a guardian. With his trusty Sword - a blade which has seen countless face-offs in the blockchain realm - this Shinobi stands as the silent guardian, the vigilant protector of the BCH Blockchain and its revered Cashtokens.",
+  "name": "Shinobi #1 - Harbinger of the Dark Forest",
+  "description": "Emerging from the mysterious shadows of the Dark Forest, this Shinobi is an elite guardian of the BCH blockchain. Emanating a powerful Red Glow, his presence commands respect and fear in equal measures. Armored in a Stealth Shadow Body, this ninja is almost invisible till he strikes with his terrifying Scythe. His White Eyes, unyielding and resolute, burn brightly in the dark, a testament to his unwavering commitment to maintain the balance and integrity of the decentralized world. Like a phantom of the night, he stands as a powerful avatar of Satoshi's will.",
   "image": "ipfs://NewUriToReplace/images/1.png",
-  "dna": "7c8fb94322583f24fbdb1f2bbef820128b85ab95",
+  "dna": "9b1e5fd771a69adf90a363ea31c04b8785a1171c",
   "edition": 1,
-  "date": 1696035475849,
-  "imageHash": "c0539459e30e4793583632ba7a6b2633cdb62bd7f864e602dcc668ecf7bfa18e",
+  "date": 1696035479989,
+  "imageHash": "558811fb10667a77e3a59051d704f208a0443091010876bc5daf7788fbeb716c",
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Village"
+      "value": "Dark Forest"
     },
     {
       "trait_type": "Glow",
-      "value": "Green"
+      "value": "Red"
     },
     {
       "trait_type": "Weapons",
-      "value": "Sword"
+      "value": "Scythe"
     },
     {
       "trait_type": "Body",
@@ -148,13 +150,13 @@ Taking a look at the same JSON file again, shows much better data! We now have a
     }
   ],
   "icon": "ipfs://NewUriToReplace/icons/1.png",
-  "iconHash": "2057f7661f3a870fef7246090cf32e5467c8dc829645b340cb7c3e1e987407d7"
+  "iconHash": "ba789fd47be7a9ce8ec139143ad61d26b3d1cce272d31ae9dfdcd44b7f3ca267"
 }
 ```
 
 As you can see, our Shinobi now has a backstory!
 
-> Emerging from the heart of the Village, the Shadow Sentinel of the Green Glow is an embodiment of silent strength and stealth. As a digital ninja, his form blends seamlessly with the darkness. His body, formed entirely of digital Shadow, whispers tales of ancient battles and secret martial knowledge. The White Eyes, windows to a depthless wisdom, gaze intrepidly into the decentralized world, upholding its integrity with an unwavering resolve. The Green Glow radiating from him is not just a symbol of his ethereal source of power, but a beacon for those yearning for a guardian. With his trusty Sword - a blade which has seen countless face-offs in the blockchain realm - this Shinobi stands as the silent guardian, the vigilant protector of the BCH Blockchain and its revered Cashtokens.
+> Emerging from the mysterious shadows of the Dark Forest, this Shinobi is an elite guardian of the BCH blockchain. Emanating a powerful Red Glow, his presence commands respect and fear in equal measures. Armored in a Stealth Shadow Body, this ninja is almost invisible till he strikes with his terrifying Scythe. His White Eyes, unyielding and resolute, burn brightly in the dark, a testament to his unwavering commitment to maintain the balance and integrity of the decentralized world. Like a phantom of the night, he stands as a powerful avatar of Satoshi's will.
 
 The new descriptions will be significantly different for every NFT collection and is based off values in the configuration file and the attributes of the NFTs. These are not cookie cutter descriptions!
 
