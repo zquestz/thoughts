@@ -87,8 +87,9 @@ Now, if you look at the metadata, your Shinobi's aren't actually that interestin
 
 Now lets generate new names using OpenAI's GPT-4 API!
 
+First, you will need to [setup an OpenAI API key](https://platform.openai.com/apps). Then make sure the `OPENAI_API_KEY` env var is set or added to your `.env` file.
+
 ```zsh
-export OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>
 npm run openai
 ```
 
