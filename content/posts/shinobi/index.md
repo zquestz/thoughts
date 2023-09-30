@@ -18,7 +18,7 @@ Shinobi Art Engine serves as a bridge connecting creativity with blockchain tech
 
 We added quite a few new features to the original HashLips engine, including:
 
-- Support for BCH [CashTokens](https://cashtokens.org) NFT projects.
+- Support for BCH [CashTokens](https://cashtokens.org) NFT projects with [Bitcoin Cash Metadata Registries](https://cashtokens.org/docs/bcmr/chip/) (BCMR).
 - Icon generation for ETH and BCH projects.
 - Updated to use ES module imports instead of `require()` statements.
 - New Shinobi example layers!
