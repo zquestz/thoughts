@@ -7,7 +7,7 @@ cover = "posts/ssh-audit/images/ssh.webp"
 coverCredit = "SSH Hardening"
 tags = ["privacy", "security"]
 keywords = ["privacy", "security"]
-summary = ""
+summary = "Today I explored ssh-audit, a tool designed to audit SSH configurations. Although it’s an excellent tool, I found the hardening guides somewhat lacking. Hence, I decided to write a detailed walkthrough, ensuring the ssh/sshd configurations are easily readable."
 +++
 
 Today I explored [ssh-audit](https://github.com/jtesta/ssh-audit), a tool designed to audit SSH configurations. Although it's an excellent tool, I found the [hardening guides](https://www.ssh-audit.com/hardening_guides.html) somewhat lacking. Hence, I decided to write a detailed walkthrough, ensuring the ssh/sshd configurations are easily readable.
