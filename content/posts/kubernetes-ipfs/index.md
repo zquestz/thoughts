@@ -14,7 +14,7 @@ For over half a decade, I have been deploying [IPFS](https://ipfs.io) on my Kube
 
 ## Kubernetes Configurations
 
-You can access my most recent [IPFS Kubernetes configurations]((https://github.com/zquestz/kube-ipfs)) on GitHub. These configurations are tailored for deployment on a [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine) cluster, accompanied by [cert-manager](https://github.com/cert-manager/cert-manager). However, the flexibility of Kubernetes means that these configurations also serve as a solid foundation for deployments on bare-metal or other cloud providers.
+You can access my most recent [IPFS Kubernetes configurations](https://github.com/zquestz/kube-ipfs) on GitHub. These configurations are tailored for deployment on a [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine) cluster, accompanied by [cert-manager](https://github.com/cert-manager/cert-manager). However, the flexibility of Kubernetes means that these configurations also serve as a solid foundation for deployments on bare-metal or other cloud providers.
 
 Staying updated with the latest IPFS releases is crucial to leverage new features and security updates. A noteworthy point is that IPFS does not trigger migrations automatically by default. Therefore, it's essential to include the `--migrate` flag in your deployment configuration. This flag is especially crucial if you opt for the `ipfs/kubo:release` image, as without it, a new release could halt your node from booting up.
 
