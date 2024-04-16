@@ -147,7 +147,7 @@ enableEmoji = true
         [[languages.en.menu.main]]
           identifier = "nostr"
           name = "Nostr"
-          url = "https://snort.greyh.at/nprofile1qqsdypxf49xdumccr8e4k4n70w7j3jpulwvfg3398w933pruvzhz05q5ddfv8"
+          url = "https://snort.social/nprofile1qqsdypxf49xdumccr8e4k4n70w7j3jpulwvfg3398w933pruvzhz05q5ddfv8"
           weight = 6
         [[languages.en.menu.main]]
           identifier = "twitter"
