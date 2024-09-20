@@ -1,13 +1,15 @@
 baseurl = "https://thoughts.greyh.at/"
 languageCode = "en-us"
 theme = "terminal"
-paginate = 5
 googleAnalytics = "G-4D8DK831BJ"
 enableEmoji = true
 # disqusShortname = 'thoughts-17'
 
 [taxonomies]
   tag = 'tags'
+
+[pagination]
+  pagerSize = 5
 
 [params]
   # dir name of your main content (default is `content/posts`).
