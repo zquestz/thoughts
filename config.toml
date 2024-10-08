@@ -125,34 +125,44 @@ enableEmoji = true
           identifier = "lemmy"
           name = "Lemmy"
           url = "https://lemm.ee/u/zquestz"
-          weight = 6
+          weight = 5
         [[languages.en.menu.main]]
           identifier = "linkedin"
           name = "LinkedIn"
           url = "https://www.linkedin.com/in/joshellithorpe/"
-          weight = 6
+          weight = 5
         [[languages.en.menu.main]]
           identifier = "mastodon"
           name = "Mastodon"
           url = "https://mastodon.social/web/@zquestz"
-          weight = 6
+          weight = 5
         [[languages.en.menu.main]]
           identifier = "memo"
           name = "Memo"
           url = "https://memo.cash/profile/1FengemWaQUnr4NWeUerb6YzMNJ7xBT74e"
-          weight = 6
+          weight = 5
         [[languages.en.menu.main]]
           identifier = "noise"
           name = "Noise"
           url = "https://noise.app/quest"
-          weight = 6
+          weight = 5
         [[languages.en.menu.main]]
           identifier = "nostr"
           name = "Nostr"
-          url = "https://snort.social/nprofile1qqsdypxf49xdumccr8e4k4n70w7j3jpulwvfg3398w933pruvzhz05q5ddfv8"
-          weight = 6
+          url = "https://primal.net/p/npub16gzvn22vmeh3sx0ntdt8u7aa9ryre7ucj3rz2wutrzz8cc9wylgq4dgl64"
+          weight = 5
+        [[languages.en.menu.main]]
+          identifier = "reddit"
+          name = "Reddit"
+          url = "https://www.reddit.com/user/zquestz/"
+          weight = 5
         [[languages.en.menu.main]]
           identifier = "twitter"
           name = "Twitter"
           url = "https://twitter.com/zquestz"
-          weight = 6
+          weight = 5
+        [[languages.en.menu.main]]
+          identifier = "warpcast"
+          name = "Warpcast"
+          url = "https://warpcast.com/quest"
+          weight = 5
