@@ -70,4 +70,4 @@ The sound quality is excellent, the BluOS app is stable, and all my key music se
 
 Overall, the switch to Bluesound has re-energized my enjoyment of listening to music at home. The improved sound quality, seamless app experience, and support from the community have reaffirmed that this was the right choice for me.
 
-Goodbye Sonos, and hello Bluesound!
+Goodbye Sonos, hello Bluesound!
