@@ -43,7 +43,7 @@ The images produced were not exactly what I wanted, but since this was a test ru
 I put all the generated images in the `story` directory, then ran:
 
 ```
-python ./infinite_zoom.py -as -i ./story -o story.mp4 
+python ./infinite_zoom.py -as -i ./story -o story.mp4
 ```
 
 This created `story.mp4` which you can see below!

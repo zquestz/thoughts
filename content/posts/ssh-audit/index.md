@@ -24,7 +24,7 @@ The ssh-audit tool is important for several reasons:
 
 Setting up ssh-audit is straightforward. Simply follow the installation instructions on their [project page](https://github.com/jtesta/ssh-audit), and you'll be ready in no time.
 
-While it's not mentioned on their GitHub, there's a package available on the  [Arch Linux User Repository](https://aur.archlinux.org). You can install it using your preferred AUR helper:
+While it's not mentioned on their GitHub, there's a package available on the [Arch Linux User Repository](https://aur.archlinux.org). You can install it using your preferred AUR helper:
 
 ```sh
 yay -S ssh-audit

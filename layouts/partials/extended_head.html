@@ -1,11 +1,15 @@
-{{ $cssResources := slice }}
-{{ range (readDir "assets/css") }}
-{{ $cssResources = $cssResources | append (resources.Get (print "css/" .Name)) }}
-{{ end }}
-{{ $cssBundle := $cssResources | resources.Concat "css/theme.css" | fingerprint | minify }}
-<link rel="preload" href="{{ $cssBundle.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+{{ $cssResources := slice }} {{ range (readDir "assets/css") }} {{ $cssResources
+= $cssResources | append (resources.Get (print "css/" .Name)) }} {{ end }} {{
+$cssBundle := $cssResources | resources.Concat "css/theme.css" | fingerprint |
+minify }}
+<link
+  rel="preload"
+  href="{{ $cssBundle.RelPermalink }}"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+/>
 <noscript>
-  <link rel="stylesheet" href="{{ $cssBundle.RelPermalink }}">
+  <link rel="stylesheet" href="{{ $cssBundle.RelPermalink }}" />
 </noscript>
 
 <style>
@@ -18,7 +22,7 @@
     transition: none !important;
   }
 
-  .shareon>*,
+  .shareon > *,
   a.donate-with-crypto {
     border-radius: 0 !important;
   }

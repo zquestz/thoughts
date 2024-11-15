@@ -22,11 +22,12 @@ So, that meant no WordPress, no Drupal, it was time to keep things as simple as 
 
 Since I know both Ruby and Go, I naturally checked out the latest releases of [Jekyll](https://jekyllrb.com/) and [Hugo](https://gohugo.io/), as they are the most popular static site generators on the market.
 
-While both are quality projects, I chose Hugo. It lets me create all my posts using markdown, is incredibly fast, and offers a bunch of themes to get started. Plus, it had a [theme](https://github.com/panr/hugo-theme-terminal) I really liked, so I figured why not. 
+While both are quality projects, I chose Hugo. It lets me create all my posts using markdown, is incredibly fast, and offers a bunch of themes to get started. Plus, it had a [theme](https://github.com/panr/hugo-theme-terminal) I really liked, so I figured why not.
 
 ## Configuration
 
 Setup was super simple. First, I created the new site.
+
 ```
 hugo new site thoughts
 cd thoughts
@@ -34,6 +35,7 @@ git init
 ```
 
 Then, I added my theme.
+
 ```
 git submodule add -f https://github.com/panr/hugo-theme-terminal.git themes/terminal
 ```
@@ -46,91 +48,90 @@ theme = "terminal"
 paginate = 5
 
 [params]
-  # dir name of your main content (default is `content/posts`).
-  # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+# dir name of your main content (default is `content/posts`).
+# the list of set content will show up on your index page (baseurl).
+contentTypeName = "posts"
 
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "green"
+# ["orange", "blue", "red", "green", "pink"]
+themeColor = "green"
 
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+# if you set this to 0, only submenu trigger will be visible
+showMenuItems = 2
 
-  # show selector to switch language
-  showLanguageSelector = false
+# show selector to switch language
+showLanguageSelector = false
 
-  # set theme to full screen width
-  fullWidthTheme = false
+# set theme to full screen width
+fullWidthTheme = false
 
-  # center theme with default width
-  centerTheme = true
+# center theme with default width
+centerTheme = true
 
-  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
-  # then the file will be used as a cover automatically.
-  # With this option you don't have to put the `cover` param in a front-matter.
-  autoCover = true
+# if your resource directory contains an image called `cover.(jpg|png|webp)`,
+# then the file will be used as a cover automatically.
+# With this option you don't have to put the `cover` param in a front-matter.
+autoCover = true
 
-  # set post to show the last updated
-  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = true
+# set post to show the last updated
+# If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+showLastUpdated = true
 
-  # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
+# set a custom favicon (default is a `themeColor` square)
+# favicon = "favicon.ico"
 
-  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-  # updatedDatePrefix = "Updated"
+# Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
+# updatedDatePrefix = "Updated"
 
-  # set all headings to their default size (depending on browser settings)
-  # oneHeadingSize = true # default
+# set all headings to their default size (depending on browser settings)
+# oneHeadingSize = true # default
 
-  # whether to show a page's estimated reading time
-  readingTime = true # default was false
+# whether to show a page's estimated reading time
+readingTime = true # default was false
 
-  # whether to show a table of contents
-  # can be overridden in a page's front-matter
-  # Toc = false # default
+# whether to show a table of contents
+# can be overridden in a page's front-matter
+# Toc = false # default
 
-  # set title for the table of contents
-  # can be overridden in a page's front-matter
-  # TocTitle = "Table of Contents" # default
-
+# set title for the table of contents
+# can be overridden in a page's front-matter
+# TocTitle = "Table of Contents" # default
 
 [params.twitter]
-  # set Twitter handles for Twitter cards
-  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-  # do not include @
-  creator = "zquestz"
-  site = "zquestz"
+# set Twitter handles for Twitter cards
+# see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+# do not include @
+creator = "zquestz"
+site = "zquestz"
 
 [languages]
-  [languages.en]
-    languageName = "English"
-    title = "Terminal Thoughts"
-    subtitle = "A small area for quest's thoughts."
-    owner = ""
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
+[languages.en]
+languageName = "English"
+title = "Terminal Thoughts"
+subtitle = "A small area for quest's thoughts."
+owner = ""
+keywords = ""
+copyright = ""
+menuMore = "Show more"
+readMore = "Read more"
+readOtherPosts = "Read other posts"
+newerPosts = "Newer posts"
+olderPosts = "Older posts"
+missingContentMessage = "Page not found..."
+missingBackButtonLabel = "Back to home page"
 
-    [languages.en.params.logo]
-      logoText = "Terminal Thoughts"
-      logoHomeLink = "/"
+[languages.en.params.logo]
+logoText = "Terminal Thoughts"
+logoHomeLink = "/"
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "thoughts"
-        name = "Thoughts"
-        url = "/"
-      [[languages.en.menu.main]]
-        identifier = "intent"
-        name = "Intent"
-        url = "/intent"
+[languages.en.menu]
+[[languages.en.menu.main]]
+identifier = "thoughts"
+name = "Thoughts"
+url = "/"
+[[languages.en.menu.main]]
+identifier = "intent"
+name = "Intent"
+url = "/intent"
 {{< /code >}}
 
 The last piece was adding `intent.md` and `experiment.md` (this post).
@@ -138,6 +139,7 @@ The last piece was adding `intent.md` and `experiment.md` (this post).
 ## DNS
 
 I already have a load balancer setup in GCE to handle a number of other websites, so all I had to do was add an A record to handle thoughts.greyh.at. I generally use a TTL of 60, just in case I have to move a domain.
+
 ```
 thoughts.greyh.at.	60	IN	A	35.208.63.54
 ```
@@ -147,6 +149,7 @@ thoughts.greyh.at.	60	IN	A	35.208.63.54
 To get the site deployed, I would need to create a Dockerfile and Kubernetes configurations to deploy to my GCE cluster.
 
 To generate static files, it was as simple as running `hugo` and the static files are created in the `public` directory. This made the Dockerfile super simple.
+
 ```
 FROM alpine:3.7
 RUN apk add --update --no-cache curl bash
@@ -157,6 +160,7 @@ COPY public/ /usr/share/nginx/html/
 ```
 
 Then I generated the image, and pushed it to Docker Hub.
+
 ```
 docker build -t thoughts .
 docker tag thoughts:latest zquestz/thoughts:06-12-2022
@@ -166,6 +170,7 @@ docker push zquestz/thoughts:latest
 ```
 
 Now that the image was pushed, I could finally write the [Kubernetes configs](https://github.com/zquestz/thoughts/tree/master/kube) and deploy the app to my cluster.
+
 ```
 kubectl apply -f kube
 ```

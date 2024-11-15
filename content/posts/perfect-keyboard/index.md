@@ -56,7 +56,7 @@ The GMMK 2 has set a high bar, quickly becoming my top keyboard choice.
 
 ## A Minor Hiccup
 
-For terminal users, the tilde (~) is crucial. By default, the GMMK 2 assigns  `~` to shift-fn-escape which is extremely inconvenient to type. I resolved this by remapping `~` to shift-escape by appending `xmodmap -e 'keysym Escape = Escape asciitilde Escape'` to my `.profile`. While it's possible to flash custom firmware, it seemed excessive for a single key remap.
+For terminal users, the tilde (~) is crucial. By default, the GMMK 2 assigns `~` to shift-fn-escape which is extremely inconvenient to type. I resolved this by remapping `~` to shift-escape by appending `xmodmap -e 'keysym Escape = Escape asciitilde Escape'` to my `.profile`. While it's possible to flash custom firmware, it seemed excessive for a single key remap.
 
 ## Final Thoughts
 

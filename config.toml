@@ -6,163 +6,168 @@ enableEmoji = true
 # disqusShortname = 'thoughts-17'
 
 [taxonomies]
-  tag = 'tags'
+tag = 'tags'
 
 [pagination]
-  pagerSize = 5
+pagerSize = 5
 
 [params]
-  # dir name of your main content (default is `content/posts`).
-  # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+# dir name of your main content (default is `content/posts`).
+# the list of set content will show up on your index page (baseurl).
+contentTypeName = "posts"
 
-  # ["orange", "blue", "red", "green", "pink", "yellow"]
-  themeColor = "grey"
+# ["orange", "blue", "red", "green", "pink", "yellow"]
+themeColor = "grey"
 
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 4
+# if you set this to 0, only submenu trigger will be visible
+showMenuItems = 4
 
-  # show selector to switch language
-  showLanguageSelector = false
+# show selector to switch language
+showLanguageSelector = false
 
-  # set theme to full screen width
-  fullWidthTheme = false
+# set theme to full screen width
+fullWidthTheme = false
 
-  # center theme with default width
-  centerTheme = true
+# center theme with default width
+centerTheme = true
 
-  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
-  # then the file will be used as a cover automatically.
-  # With this option you don't have to put the `cover` param in a front-matter.
-  autoCover = true
+# if your resource directory contains an image called `cover.(jpg|png|webp)`,
+# then the file will be used as a cover automatically.
+# With this option you don't have to put the `cover` param in a front-matter.
+autoCover = true
 
-  # set post to show the last updated
-  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = true
+# set post to show the last updated
+# If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+showLastUpdated = true
 
-  # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
+# set a custom favicon (default is a `themeColor` square)
+# favicon = "favicon.ico"
 
-  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-  # updatedDatePrefix = "Updated"
+# Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
+# updatedDatePrefix = "Updated"
 
-  # set all headings to their default size (depending on browser settings)
-  # oneHeadingSize = true # default
+# set all headings to their default size (depending on browser settings)
+# oneHeadingSize = true # default
 
-  # whether to show a page's estimated reading time
-  readingTime = true # default was false
+# whether to show a page's estimated reading time
+readingTime = true # default was false
 
-  # whether to show a table of contents
-  # can be overridden in a page's front-matter
-  # Toc = false # default
+# whether to show a table of contents
+# can be overridden in a page's front-matter
+# Toc = false # default
 
-  # set title for the table of contents
-  # can be overridden in a page's front-matter
-  # TocTitle = "Table of Contents" # default
+# set title for the table of contents
+# can be overridden in a page's front-matter
+# TocTitle = "Table of Contents" # default
 
-  # use Source Code Pro instead of Fira Code
-  useSourceCodePro = true
+# use Source Code Pro instead of Fira Code
+useSourceCodePro = true
 
 [params.twitter]
-  # set Twitter handles for Twitter cards
-  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-  # do not include @
-  creator = "zquestz"
-  site = "zquestz"
+# set Twitter handles for Twitter cards
+# see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+# do not include @
+creator = "zquestz"
+site = "zquestz"
 
 [params.mastodon]
-  site = "@zquestz@mastodon.social"
+site = "@zquestz@mastodon.social"
 
 [languages]
-  [languages.en]
-    languageName = "English"
-    title = "Terminal Thoughts"
-    copyright = "@ 2023 quest"
+[languages.en]
+languageName = "English"
+title = "Terminal Thoughts"
+copyright = "@ 2023 quest"
 
-    [languages.en.params]
-      subtitle = "A small area for quest's thoughts."
-      owner = ""
-      keywords = "code, crypto, food, health, infrastructure, linux, security, spirit"
-      menuMore = "Show more"
-      readMore = "Read more"
-      readOtherPosts = "Read other posts"
-      newerPosts = "Newer posts"
-      olderPosts = "Older posts"
-      missingContentMessage = "Page not found..."
-      missingBackButtonLabel = "Back to home page"
+[languages.en.params]
+subtitle = "A small area for quest's thoughts."
+owner = ""
+keywords = "code, crypto, food, health, infrastructure, linux, security, spirit"
+menuMore = "Show more"
+readMore = "Read more"
+readOtherPosts = "Read other posts"
+newerPosts = "Newer posts"
+olderPosts = "Older posts"
+missingContentMessage = "Page not found..."
+missingBackButtonLabel = "Back to home page"
 
-      [languages.en.params.logo]
-        logoText = "Terminal Thoughts"
-        logoHomeLink = "/"
+[languages.en.params.logo]
+logoText = "Terminal Thoughts"
+logoHomeLink = "/"
 
-      [languages.en.menu]
-        [[languages.en.menu.main]]
-          identifier = "thoughts"
-          name = "Thoughts"
-          url = "/"
-          weight = 1
-        [[languages.en.menu.main]]
-          identifier = "intent"
-          name = "Intent"
-          url = "/intent/"
-          weight = 2
-        [[languages.en.menu.main]]
-          identifier = "github"
-          name = "GitHub"
-          url = "https://github.com/zquestz"
-          weight = 3
-        [[languages.en.menu.main]]
-          identifier = "lastfm"
-          name = "Last.fm"
-          url = "https://www.last.fm/user/zquestz"
-          weight = 4
-        [[languages.en.menu.main]]
-          identifier = "keybase"
-          name = "Keybase"
-          url = "https://keybase.io/zquestz"
-          weight = 5
-        [[languages.en.menu.main]]
-          identifier = "lemmy"
-          name = "Lemmy"
-          url = "https://lemm.ee/u/zquestz"
-          weight = 5
-        [[languages.en.menu.main]]
-          identifier = "linkedin"
-          name = "LinkedIn"
-          url = "https://www.linkedin.com/in/joshellithorpe/"
-          weight = 5
-        [[languages.en.menu.main]]
-          identifier = "mastodon"
-          name = "Mastodon"
-          url = "https://mastodon.social/web/@zquestz"
-          weight = 5
-        [[languages.en.menu.main]]
-          identifier = "memo"
-          name = "Memo"
-          url = "https://memo.cash/profile/1FengemWaQUnr4NWeUerb6YzMNJ7xBT74e"
-          weight = 5
-        [[languages.en.menu.main]]
-          identifier = "noise"
-          name = "Noise"
-          url = "https://noise.app/quest"
-          weight = 5
-        [[languages.en.menu.main]]
-          identifier = "nostr"
-          name = "Nostr"
-          url = "https://primal.net/p/npub16gzvn22vmeh3sx0ntdt8u7aa9ryre7ucj3rz2wutrzz8cc9wylgq4dgl64"
-          weight = 5
-        [[languages.en.menu.main]]
-          identifier = "reddit"
-          name = "Reddit"
-          url = "https://www.reddit.com/user/zquestz/"
-          weight = 5
-        [[languages.en.menu.main]]
-          identifier = "twitter"
-          name = "Twitter"
-          url = "https://twitter.com/zquestz"
-          weight = 5
-        [[languages.en.menu.main]]
-          identifier = "warpcast"
-          name = "Warpcast"
-          url = "https://warpcast.com/quest"
-          weight = 5
+[languages.en.menu]
+[[languages.en.menu.main]]
+identifier = "thoughts"
+name = "Thoughts"
+url = "/"
+weight = 1
+[[languages.en.menu.main]]
+identifier = "intent"
+name = "Intent"
+url = "/intent/"
+weight = 2
+[[languages.en.menu.main]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/zquestz"
+weight = 3
+[[languages.en.menu.main]]
+identifier = "lastfm"
+name = "Last.fm"
+url = "https://www.last.fm/user/zquestz"
+weight = 4
+[[languages.en.menu.main]]
+identifier = "bluesky"
+name = "Bluesky"
+url = "https://bsky.app/profile/greyh.at"
+weight = 5
+[[languages.en.menu.main]]
+identifier = "keybase"
+name = "Keybase"
+url = "https://keybase.io/zquestz"
+weight = 5
+[[languages.en.menu.main]]
+identifier = "lemmy"
+name = "Lemmy"
+url = "https://lemm.ee/u/zquestz"
+weight = 5
+[[languages.en.menu.main]]
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/joshellithorpe/"
+weight = 5
+[[languages.en.menu.main]]
+identifier = "mastodon"
+name = "Mastodon"
+url = "https://mastodon.social/web/@zquestz"
+weight = 5
+[[languages.en.menu.main]]
+identifier = "memo"
+name = "Memo"
+url = "https://memo.cash/profile/1FengemWaQUnr4NWeUerb6YzMNJ7xBT74e"
+weight = 5
+[[languages.en.menu.main]]
+identifier = "noise"
+name = "Noise"
+url = "https://noise.app/quest"
+weight = 5
+[[languages.en.menu.main]]
+identifier = "nostr"
+name = "Nostr"
+url = "https://primal.net/p/npub16gzvn22vmeh3sx0ntdt8u7aa9ryre7ucj3rz2wutrzz8cc9wylgq4dgl64"
+weight = 5
+[[languages.en.menu.main]]
+identifier = "reddit"
+name = "Reddit"
+url = "https://www.reddit.com/user/zquestz/"
+weight = 5
+[[languages.en.menu.main]]
+identifier = "twitter"
+name = "Twitter"
+url = "https://twitter.com/zquestz"
+weight = 5
+[[languages.en.menu.main]]
+identifier = "warpcast"
+name = "Warpcast"
+url = "https://warpcast.com/quest"
+weight = 5
