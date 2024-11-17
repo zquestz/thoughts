@@ -5,8 +5,8 @@ author = "quest"
 authorTwitter = "zquestz"
 cover = "posts/geoclue-tz/images/geoclue-tz.webp"
 coverCredit = "geoclue-tz"
-tags = ["code", "privacy"]
-keywords = ["code", "privacy"]
+tags = ["code", "linux", "privacy"]
+keywords = ["code", "linux", "privacy"]
 summary = "Linux location services provided by GeoClue have been historically unreliable. Whether it's VPN usage causing incorrect locations, rate limits from upstream services, or broken functionality after system upgrades, users often find themselves struggling with basic location-aware features."
 +++
 
