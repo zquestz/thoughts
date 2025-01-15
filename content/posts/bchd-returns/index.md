@@ -63,16 +63,16 @@ Meep relies on BCHD's script virtual machine, which means keeping BCHD in consen
 
 The path forward for BCHD is clear and focused. Our primary objectives are:
 
-1. Maintaining Network Consensus
-   - Implementing the 2025 upgrade features
-   - Supporting [CHIP-2021-05 VM Limits](https://github.com/bitjson/bch-vm-limits)
-   - Adding [CHIP-2024-07 BigInt](https://github.com/bitjson/bch-bigint) support
-   - Ensuring thorough testing of all consensus changes
+- Maintaining Network Consensus
+  - Implementing the 2025 upgrade features
+  - Supporting [CHIP-2021-05 VM Limits](https://github.com/bitjson/bch-vm-limits)
+  - Adding [CHIP-2024-07 BigInt](https://github.com/bitjson/bch-bigint) support
+  - Ensuring thorough testing of all consensus changes
 
-2. Performance Improvements
-   - Developing a full UTXO index to speed up UTXO queries
-   - Optimizing query performance for blockchain applications
-   - Improving overall node efficiency
+- Performance Improvements
+  - Developing a full UTXO index to speed up UTXO queries
+  - Optimizing query performance for blockchain applications
+  - Improving overall node efficiency
 
 This focused roadmap reflects our commitment to both stability and practical improvements. While BCHD already offers the most comprehensive feature set of any BCH node, we understand that maintaining consensus and improving performance are crucial for rebuilding trust in the implementation.
 
@@ -81,6 +81,7 @@ This focused roadmap reflects our commitment to both stability and practical imp
 BCHD is an open-source project that welcomes contributions from developers of all skill levels. Whether you're a Go developer looking to work on blockchain technology, or a BCH enthusiast wanting to improve the ecosystem, there are many ways to get involved.
 
 ### Core Components
+
 - [bchd](https://github.com/gcash/bchd) - The main full node implementation
 - [bchwallet](https://github.com/gcash/bchwallet) - Wallet implementation
 - [meep](https://github.com/gcash/meep) - Bitcoin Cash script debugger
@@ -98,6 +99,7 @@ For developers wanting to try BCHD's capabilities without running their own node
 These endpoints provide access to BCHD's gRPC API, perfect for testing your applications or getting familiar with BCHD's capabilities before setting up your own node. The gRPC API allows you to query blockchain data, monitor transactions, and interact with the network programmatically.
 
 ### Community
+
 - Website: [bchd.cash](https://bchd.cash)
 - BCHD Operators Chat: [Telegram](https://t.me/BCHDOps)
 - Stay updated by watching the [BCHD repository](https://github.com/gcash/bchd) on GitHub
