@@ -1,5 +1,5 @@
 +++
-title = "BCHD Returns"
+title = "BCHD Returns: Bitcoin Cash's Feature-Rich Node is Back"
 date = "2025-01-14"
 author = "quest"
 authorTwitter = "zquestz"
@@ -9,8 +9,6 @@ tags = ["crypto", "code"]
 keywords = ["crypto", "code"]
 summary = "BCHD has an interesting history in the Bitcoin Cash ecosystem. Originally launched in 2018, it quickly became known for its developer-friendly features and modern architecture. When Chris Pacia, the original developer, moved on to other projects, BCHD was left without active maintenance. Like many open source projects, maintaining consensus with network upgrades requires consistent development effort, and in 2023, BCHD fell out of consensus with the network, temporarily sidelining what had been a key piece of BCH infrastructure."
 +++
-
-# BCHD: A Fresh Start for Bitcoin Cash's Most Feature-Complete Node
 
 [BCHD](https://bchd.cash) has an interesting history in the Bitcoin Cash ecosystem. Originally launched in 2018, it quickly became known for its developer-friendly features and modern architecture. When Chris Pacia, the original developer, moved on to other projects, BCHD was left without active maintenance. Like many open source projects, maintaining consensus with network upgrades requires consistent development effort, and in 2023, BCHD fell out of consensus with the network, temporarily sidelining what had been a key piece of BCH infrastructure.
 
