@@ -1,17 +1,15 @@
-/*! shareon v2.0.0 */ !(function (t, e) {
-  "object" == typeof exports && "undefined" != typeof module
-    ? e(exports)
-    : "function" == typeof define && define.amd
-      ? define(["exports"], e)
-      : e(
-          ((t =
-            "undefined" != typeof globalThis ? globalThis : t || self).Shareon =
-            {}),
-        );
-})(this, function (t) {
+var Shareon = (function (r) {
   "use strict";
-  const e = {
-      facebook: (t) => `https://www.facebook.com/sharer/sharer.php?u=${t.url}`,
+  const o = {
+      bluesky: (t) =>
+        `https://bsky.app/intent/compose?text=${t.text || t.title}%0A%0A${t.url}`,
+      facebook: (t) =>
+        `https://www.facebook.com/sharer/sharer.php?u=${t.url}${t.hashtags ? `&hashtag=%23${t.hashtags.split("%2C")[0]}` : ""}`,
+      fediverse: (t) =>
+        `https://${t.s2fInstance}/?text=${t.title}%0D%0A${t.url}${t.text ? `%0D%0A%0D%0A${t.text}` : ""}${t.via ? `%0D%0A%0D%0A${t.via}` : ""}`,
+      email: (t) => `mailto:?subject=${t.title}&body=${t.url}`,
+      hackernews: (t) =>
+        `https://news.ycombinator.com/submitlink?u=${t.url}&t=${t.title}`,
       linkedin: (t) =>
         `https://www.linkedin.com/sharing/share-offsite/?url=${t.url}`,
       mastodon: (t) =>
@@ -25,10 +23,14 @@
       pocket: (t) => `https://getpocket.com/edit.php?url=${t.url}`,
       reddit: (t) =>
         `https://www.reddit.com/submit?title=${t.title}&url=${t.url}`,
+      teams: (t) =>
+        `https://teams.microsoft.com/share?href=${t.url}${t.text ? `&msgText=${t.text}` : ""}`,
       telegram: (t) =>
         `https://telegram.me/share/url?url=${t.url}${t.text ? `&text=${t.text}` : ""}`,
-      twitter: (t) =>
-        `https://twitter.com/intent/tweet?url=${t.url}&text=${t.title}${t.via ? `&via=${t.via}` : ""}`,
+      tumblr: (t) =>
+        `https://www.tumblr.com/widgets/share/tool?posttype=link${t.hashtags ? `&tags=${t.hashtags}` : ""}&title=${t.title}&content=${t.url}&canonicalUrl=${t.url}${t.text ? `&caption=${t.text}` : ""}${t.via ? `&show-via=${t.via}` : ""}`,
+      x: (t) =>
+        `https://x.com/intent/post?url=${t.url}&text=${t.title}${t.via ? `&via=${t.via}` : ""}${t.hashtags ? `&hashtags=${t.hashtags}` : ""}`,
       viber: (t) =>
         `viber://forward?text=${t.title}%0D%0A${t.url}${t.text ? `%0D%0A%0D%0A${t.text}` : ""}`,
       vkontakte: (t) =>
@@ -36,52 +38,90 @@
       whatsapp: (t) =>
         `https://wa.me/?text=${t.title}%0D%0A${t.url}${t.text ? `%0D%0A%0D%0A${t.text}` : ""}`,
     },
-    o = (t) => () => {
+    p = (t) => () => {
       window.open(t, "_blank", "noopener,noreferrer");
     },
-    r = () => {
+    l = () => {
       const t = document.querySelectorAll(".shareon");
-      for (const r of t)
-        for (const t of r.children)
-          if (t) {
-            const i = t.classList.length;
-            for (let a = 0; a < i; a += 1) {
-              const i = t.classList.item(a);
-              if (Object.prototype.hasOwnProperty.call(e, i)) {
-                const a = {
+      for (const a of t)
+        for (const e of a.children)
+          if (e) {
+            const u = e.classList.length;
+            for (let n = 0; n < u; n += 1) {
+              const i = e.classList.item(n);
+              if (
+                (i === "copy-url" &&
+                  e.addEventListener("click", () => {
+                    const s =
+                      e.dataset.url || a.dataset.url || window.location.href;
+                    navigator.clipboard.writeText(s),
+                      e.classList.add("done"),
+                      setTimeout(() => {
+                        e.classList.remove("done");
+                      }, 1e3);
+                  }),
+                i === "print" &&
+                  e.addEventListener("click", () => {
+                    window.print();
+                  }),
+                i === "web-share")
+              ) {
+                const s = {
+                  title: e.dataset.title || a.dataset.title || document.title,
+                  text: e.dataset.text || a.dataset.text || "",
+                  url: e.dataset.url || a.dataset.url || window.location.href,
+                };
+                navigator.canShare && navigator.canShare(s)
+                  ? e.addEventListener("click", () => {
+                      navigator.share(s);
+                    })
+                  : (e.style.display = "none");
+              }
+              if (Object.prototype.hasOwnProperty.call(o, i)) {
+                const s = {
                     url: encodeURIComponent(
-                      t.dataset.url || r.dataset.url || window.location.href,
+                      e.dataset.url || a.dataset.url || window.location.href,
                     ),
                     title: encodeURIComponent(
-                      t.dataset.title || r.dataset.title || document.title,
+                      e.dataset.title || a.dataset.title || document.title,
                     ),
                     media: encodeURIComponent(
-                      t.dataset.media || r.dataset.media || "",
+                      e.dataset.media || a.dataset.media || "",
                     ),
                     text: encodeURIComponent(
-                      t.dataset.text || r.dataset.text || "",
+                      e.dataset.text || a.dataset.text || "",
                     ),
                     via: encodeURIComponent(
-                      t.dataset.via || r.dataset.via || "",
+                      e.dataset.via || a.dataset.via || "",
+                    ),
+                    hashtags: encodeURIComponent(
+                      e.dataset.hashtags || a.dataset.hashtags || "",
                     ),
                     fbAppId: encodeURIComponent(
-                      t.dataset.fbAppId || r.dataset.fbAppId || "",
+                      e.dataset.fbAppId || a.dataset.fbAppId || "",
+                    ),
+                    s2fInstance: encodeURIComponent(
+                      e.dataset.s2fInstance ||
+                        a.dataset.s2fInstance ||
+                        "s2f.kytta.dev",
                     ),
                   },
-                  n = e[i](a);
-                "a" === t.tagName.toLowerCase()
-                  ? (t.setAttribute("href", n),
-                    t.setAttribute("rel", "noopener noreferrer"),
-                    t.setAttribute("target", "_blank"))
-                  : t.addEventListener("click", o(n));
+                  h = o[i](s);
+                e.tagName.toLowerCase() === "a"
+                  ? (e.setAttribute("href", h),
+                    e.setAttribute("rel", "noopener noreferrer"),
+                    e.setAttribute("target", "_blank"))
+                  : e.addEventListener("click", p(h));
                 break;
               }
             }
           }
     },
-    i = document.currentScript;
-  i && i.hasAttribute("init") && r(),
-    (t.init = r),
-    Object.defineProperty(t, "__esModule", { value: !0 }),
-    (t[Symbol.toStringTag] = "Module");
-});
+    c = document.currentScript;
+  return (
+    c && c.hasAttribute("init") && l(),
+    (r.init = l),
+    Object.defineProperty(r, Symbol.toStringTag, { value: "Module" }),
+    r
+  );
+})({});
