@@ -139,7 +139,7 @@ weight = 5
 [[languages.en.menu.main]]
 identifier = "mastodon"
 name = "Mastodon"
-url = "https://mastodon.social/web/@zquestz"
+url = "https://mastodon.social/@zquestz"
 weight = 5
 [[languages.en.menu.main]]
 identifier = "memo"
@@ -162,9 +162,9 @@ name = "Reddit"
 url = "https://www.reddit.com/user/zquestz/"
 weight = 5
 [[languages.en.menu.main]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com/zquestz"
+identifier = "x"
+name = "X"
+url = "https://x.com/zquestz"
 weight = 5
 [[languages.en.menu.main]]
 identifier = "warpcast"
