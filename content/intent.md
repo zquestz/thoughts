@@ -1,6 +1,7 @@
 +++
 title = "Intent"
 date = "2024-10-27"
+lastmod = "2025-03-28"
 author = "quest"
 hideComments = true
 +++
