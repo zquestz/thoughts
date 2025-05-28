@@ -1,7 +1,7 @@
 +++
 title = "Intent"
 date = "2024-10-27"
-lastmod = "2025-03-28"
+lastmod = "2025-05-27"
 author = "quest"
 hideComments = true
 +++
@@ -18,4 +18,4 @@ This is where I share my thoughts about:
 - Health
 - Spirit
 
-You can find my short form content on [X](https://x.com/zquestz) or [Warpcast](https://warpcast.com/quest), and my code on [GitHub](https://github.com/zquestz).
+You can find my short form content on [X](https://x.com/zquestz) or [Farcaster](https://farcaster.xyz/quest), and my code on [GitHub](https://github.com/zquestz).

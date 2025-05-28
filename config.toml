@@ -122,6 +122,11 @@ name = "Bluesky"
 url = "https://bsky.app/profile/greyh.at"
 weight = 5
 [[languages.en.menu.main]]
+identifier = "farcaster"
+name = "Farcaster"
+url = "https://farcaster.xyz/quest"
+weight = 5
+[[languages.en.menu.main]]
 identifier = "keybase"
 name = "Keybase"
 url = "https://keybase.io/zquestz"
@@ -165,9 +170,4 @@ weight = 5
 identifier = "x"
 name = "X"
 url = "https://x.com/zquestz"
-weight = 5
-[[languages.en.menu.main]]
-identifier = "warpcast"
-name = "Warpcast"
-url = "https://warpcast.com/quest"
 weight = 5
