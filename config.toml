@@ -134,7 +134,7 @@ weight = 5
 [[languages.en.menu.main]]
 identifier = "lemmy"
 name = "Lemmy"
-url = "https://lemm.ee/u/zquestz"
+url = "https://lemmy.world/u/zquestz"
 weight = 5
 [[languages.en.menu.main]]
 identifier = "linkedin"
