@@ -122,6 +122,11 @@ name = "Bluesky"
 url = "https://bsky.app/profile/greyh.at"
 weight = 5
 [[languages.en.menu.main]]
+identifier = "digg"
+name = "Digg"
+url = "https://beta.digg.com/@zquestz"
+weight = 5
+[[languages.en.menu.main]]
 identifier = "farcaster"
 name = "Farcaster"
 url = "https://farcaster.xyz/quest"
