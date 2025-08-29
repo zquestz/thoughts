@@ -77,7 +77,7 @@ site = "@zquestz@mastodon.social"
 [languages.en]
 languageName = "English"
 title = "Terminal Thoughts"
-copyright = "@ 2023 quest"
+copyright = "@ 2025 quest"
 
 [languages.en.params]
 subtitle = "A small area for quest's thoughts."
