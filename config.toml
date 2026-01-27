@@ -63,6 +63,9 @@ readingTime = true # default was false
 # use Source Code Pro instead of Fira Code
 useSourceCodePro = true
 
+# paths to skip when resizing cover images (for animated WebPs, etc.)
+skipResizePaths = ["celestial-gtk-theme"]
+
 [params.twitter]
 # set Twitter handles for Twitter cards
 # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
