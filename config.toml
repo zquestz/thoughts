@@ -64,7 +64,7 @@ readingTime = true # default was false
 useSourceCodePro = true
 
 # paths to skip when resizing cover images (for animated WebPs, etc.)
-skipResizePaths = ["celestial-gtk-theme"]
+skipResizePaths = []
 
 [params.twitter]
 # set Twitter handles for Twitter cards
