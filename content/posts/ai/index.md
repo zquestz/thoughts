@@ -55,7 +55,7 @@ To keep this post short(er), let me refer you to this article:
 
 ## Who is OpenAI?
 
-[OpenAI](http://openai.com) is one of the most innovative companies in the space. They have several popular [products](https://openai.com/product), but I will only focus on two, ChatGPT and DALL-E.
+[OpenAI](https://openai.com) is one of the most innovative companies in the space. They have several popular [products](https://openai.com/product), but I will only focus on two, ChatGPT and DALL-E.
 
 [DALL-E](https://labs.openai.com/) is OpenAI's image generation product. It is very similar to Midjourney and I would highly suggest you try them both, as they have very different results. DALL-E does have one main advantage, you don't need a Discord account, and you can easily use the web to generate images.
 
