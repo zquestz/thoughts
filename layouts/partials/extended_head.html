@@ -6,7 +6,10 @@ minify }}
   rel="preload"
   href="{{ $cssBundle.RelPermalink }}"
   as="style"
-  onload="this.onload=null;this.rel='stylesheet'"
+  onload="
+    this.onload = null;
+    this.rel = 'stylesheet';
+  "
 />
 <noscript>
   <link rel="stylesheet" href="{{ $cssBundle.RelPermalink }}" />
