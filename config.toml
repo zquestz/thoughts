@@ -66,6 +66,10 @@ useSourceCodePro = true
 # paths to skip when resizing cover images (for animated WebPs, etc.)
 skipResizePaths = []
 
+[params.author]
+name = "quest"
+email = "quest@mac.com"
+
 [params.twitter]
 # set Twitter handles for Twitter cards
 # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
