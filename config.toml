@@ -1,5 +1,5 @@
 baseurl = "https://thoughts.greyh.at/"
-languageCode = "en-us"
+locale = "en-us"
 theme = "terminal"
 googleAnalytics = "G-4D8DK831BJ"
 enableEmoji = true
@@ -82,7 +82,7 @@ site = "@zquestz@mastodon.social"
 
 [languages]
 [languages.en]
-languageName = "English"
+label = "English"
 title = "Terminal Thoughts"
 copyright = "© 2026 quest"
 
