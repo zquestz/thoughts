@@ -131,7 +131,7 @@ weight = 5
 [[languages.en.menu.main]]
 identifier = "digg"
 name = "Digg"
-url = "https://beta.digg.com/@zquestz"
+url = "https://digg.com/u/x/zquestz"
 weight = 5
 [[languages.en.menu.main]]
 identifier = "farcaster"
