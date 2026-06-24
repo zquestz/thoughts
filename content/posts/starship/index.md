@@ -14,7 +14,7 @@ As someone who spends a significant chunk of time immersed in terminal windows, 
 
 ## Re-Evaluating Terminal Emulators
 
-Though I had been a long-time user of the Gnome Terminal (with transparency patches), I decided it was time to reassess the myriad of terminal emulator options available for Linux — all of which I had previously encountered in some capacity. My exploration included [Terminator](https://gnome-terminator.org/), [Alacritty](https://alacritty.org/), [kitty](https://sw.kovidgoyal.net/kitty/), rxvt, and xterm, among others.
+Though I had been a long-time user of the Gnome Terminal (with transparency patches), I decided it was time to reassess the myriad of terminal emulator options available for Linux - all of which I had previously encountered in some capacity. My exploration included [Terminator](https://gnome-terminator.org/), [Alacritty](https://alacritty.org/), [kitty](https://sw.kovidgoyal.net/kitty/), rxvt, and xterm, among others.
 
 This wasn’t a mere surface-level trial; each emulator was meticulously configured to mirror my preferences, with a deep dive into their documentation to ensure a comprehensive understanding of their respective features. My findings? kitty unequivocally stood out as the superior option, meeting the essential criteria:
 
