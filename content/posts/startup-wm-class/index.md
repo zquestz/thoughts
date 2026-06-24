@@ -122,6 +122,8 @@ The bigger offenders are cross-platform frameworks. Electron derives a window's 
 
 The thread running through all of them is the same: the identity an app declares has drifted from the one its window actually reports.
 
+If you maintain one of these apps, there's a more durable fix than `StartupWMClass`, which is really an X11-era hint that desktops repurposed for window matching. A window is matched to its launcher by the identity it advertises: `WM_CLASS` on X11 and `app_id` on Wayland. Make both match the desktop file's name minus the `.desktop` suffix, ideally a fully-qualified id like `org.mozilla.Firefox`, and the icon resolves everywhere with no per-user patch.
+
 ## Final Thoughts
 
 Broken application icons look like a desktop bug, but almost always they trace back to one line in a `.desktop` file. `StartupWMClass` is optional, so the first thing to try is removing it. When an app genuinely needs the hint, reading its real `WM_CLASS` tells you the value to set. Either way, you're a one-line edit and a minute away from a fixed icon.
